@@ -8,10 +8,10 @@ export default class bmi {
       {
         text = "Under weight";
       }
-      else if( 18.5 >= sum <=24.9){
+      else if(  sum >= 18.5 && sum <=24.9){
         text = "Normal weight";
       }
-      else if( 24.9 >= sum <=29.9){
+      else if( sum >= 24.9 && sum <=29.9  ){
         text = "Overweight";
       }
       else if( sum >=29.9){
@@ -23,10 +23,10 @@ export default class bmi {
       {
         text = "Under weight";
       }
-      else if( 19.5 >= sum <=34.5){
+      else if( sum >= 19.5 && sum <=34.9){
         text = "Normal weight";
       }
-      else if( 34.5 >= sum <=39.9){
+      else if( sum >= 34.9 && sum <=39.9){
         text = "Overweight";
       }
       else if( sum >=39.9){
